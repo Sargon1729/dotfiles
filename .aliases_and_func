@@ -8,3 +8,5 @@ alias macs='ip -br -c l'
 
 #Functions
 cd() { builtin cd "$@" && ls; }
+
+#comment for testing
