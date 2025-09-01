@@ -5,6 +5,7 @@ alias alias-test='echo "Alias test successful!"'
 #Networking
 alias ips='ip -br -c a'
 alias macs='ip -br -c l'
+alias routes='ip -br -c r'
 
 #Functions
 cd() { builtin cd "$@" && ls; }
