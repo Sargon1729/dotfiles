@@ -1,6 +1,8 @@
 #Aliases
 alias ls='ls -laF --color=auto'
 alias alias-test='echo "Alias test successful!"'
+alias enabled='systemctl list-unit-files --type=service --state=enabled'
+alias running='systemctl list-units --type=service --state=running'
 
 #Networking
 alias ips='ip -br -c a'
