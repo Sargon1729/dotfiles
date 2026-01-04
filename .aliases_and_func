@@ -9,8 +9,14 @@ alias ips='ip -br -c a'
 alias macs='ip -br -c l'
 alias routes='ip -br -c r'
 
+#Bash
+alias bat='/usr/bin/batcat'
+
 #Functions
 cd() { builtin cd "$@" && ls; }
+
+#Variables
+export PAGER="most" 			#use most for the pager for colour in man pages
 
 #comment for testing
 #comment created on the remote repo
